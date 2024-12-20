@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework-12</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="wrapper__figure">
+            <div class="figures figure__square"> <p class="figure__text"></p>
+                 </div>
+            <div class="figures figure__circle"><p class="figure__text"></p> </div>
+
+        </div>
+        <div class="figure">
+            <p>Выберите фигуру:</p>
+            <div class="wrapper">
+                <button class="btn__figure btn__square">Квадрат</button>
+  
+                <button class="btn__figure btn__circle">Круг</button>
+            </div>
+            <span class="error"></span>
+        </div>
+        <div class="colors">
+            <p>Выберите цвет:</p>
+            <div class="wrapper">
+                <button class="btn__color btn-red">
+                    <div class="color color-red"></div>
+                    Красный
+                </button>
+                <button class="btn__color btn-blue ">
+                    <div class="color color-blue"></div>Голубой
+                </button>
+                <button class="btn__color btn-yellow">
+                    <div class="color color-yellow"></div>Желтый
+                </button>
+                <button class="btn__color btn-green">
+                    <div class="color color-green"></div>Зеленый
+                </button>
+                <button class="btn__color btn-orange">
+                    <div class="color color-orange"></div>Оранжевый
+                </button>
+            </div>
+        </div>
+        <form class="form__text">
+            <p>Напишите текст:</p>
+            <input type="text" class="text">
+            <button class="btn__text">Добавить </button>
+            <p class="error error__text"></p>
+        </form>
+        <button class="clear">Очистить</button>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
